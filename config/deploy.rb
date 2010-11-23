@@ -13,7 +13,7 @@ role :db,  "mmp.vpscustomer.com", :primary => true # This is where Rails migrati
 
 set :user, "switchboard"
 
-set :deploy_to, "/usr/local/switchboard"
+set :deploy_to, "/home/switchboard/production"
 set :use_sudo, false 
 
 # If you are using Passenger mod_rails uncomment this:
