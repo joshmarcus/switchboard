@@ -4,7 +4,7 @@ set :repository,  "ssh://gitosis@durga.serve.com:2020/~/repositories/mmp-sms.git
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :branch, "devdeploy"
+set :branch, "development"
 
 role :web, "mmp.vpscustomer.com"                          # Your HTTP server, Apache/etc
 role :app, "mmp.vpscustomer.com"                          # This may be the same as your `Web` server
