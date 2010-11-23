@@ -18,7 +18,7 @@ test:
 production:
   encoding: utf8
   adapter: mysql 
-  database: switchboard 
+  database: switchboard_dev 
   username: switchboard
   password: mMp@l0l
   host: localhost
